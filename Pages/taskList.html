@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../styles.css"/>
+    <title>Evarista Veliz</title>
+  </head>
+
+  <body class="light" id="top">
+    <header class="header center">
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="../index.html">Home</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger">
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Task List 2022 Project</h2>
+        <!-- TODO: add a short video of application here-->
+        <center>
+          <video width="420" height="240" controls autoplay muted>
+            <source src="../Resources/Desktop TaskList-Trim.mp4" type="video/mp4">
+            Your browser does not support this video.
+          </video>
+        </center>
+
+        <div class="projects__grid">
+          <div class="project">
+
+            <h3>Project Overview</h3>
+            <p class="project__description">
+              This project is a simple task list application that allows users to add, save, edit, and delete tasks.
+              The front-end is built using HTML, CSS, and JavaScript, while the data is being stored in a temporary 
+              cache. Users can easily enter their task details using the input field and 
+              clicking the "Add Task"button. Tasks will then be displayed in a list format and can be edited or 
+              deleted by clicking the corresponding buttons. This application provides the user with a responsive 
+              design and functionality, making it easy for users to manage their tasks. A CSS template 
+              provided by TylerPottsDev was used to style the application and provided a foundation for the project 
+              while allowing me to focus on implementing the functionality.
+              <!-- The front-end is built using HTML, CSS, and JavaScript, while the back-end is managed using
+              a browsers's local storage. -->
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">JavaScript</li>
+            </ul>
+
+            <a
+              href="https://github.com/eveliz15/toDoList"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://eveliz15.github.io/toDoList/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:velize559@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

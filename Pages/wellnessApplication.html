@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../styles.css"/>
+    <title>Evarista Veliz</title>
+  </head>
+
+  <body class="light" id="top">
+    <header class="header center">
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="../index.html">Home</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger">
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Wellness Web App Project</h2>
+        <!-- TODO: add a short video of application here-->
+        <center>
+          <video width="420" height="240" controls autoplay muted>
+            <source src="../Resources/Desktop WellnessApp_Trim.mp4" type="video/mp4">
+            Your browser does not support this video.
+          </video>
+        </center>
+
+        <div class="projects__grid">
+            <div class="project">
+                <h3>Wellness Web Application</h3>
+                <p class="project__description">
+                  This survey-based application takes a hollistic approach to 
+                  promoting health and wellness by providing users with tools for personal growth within the 8 
+                  dimensions of wellness. Users are able to create a profile and establish how important certain areas
+                  of wellness are. They can then take a survey to track how fullfilled these areas of wellness were for 
+                  the day and add an activity they may have done. Once the data is saved, users can compare their data 
+                  and answer the question "how are you doing?" by reviewing their personal radar charts. The front-end is built with React, JavaScript, and Bootstrap while the back-end uses Java, SpringBoot 
+                  and is hosted through Heroku with a PostgresQL database.
+                </p>
+                <br>
+                <p>
+                    This project was a great opportunity for gaining real-world software development experience. 
+                    While there 
+                    were challenges along the way, I took part in learning new tools - GIT, Jira, Flyway, and more - 
+                    engaged in a range of roles from project management to database design, and developed a wide range 
+                    of new skills to ensure my ability to develop software.
+                </p>
+                <ul class="project__stack">
+                  <li class="project__stack-item">Java</li>
+                  <li class="project__stack-item">JavaScript</li>
+                  <li class="project__stack-item">React</li>
+                  <li class="project__stack-item">Heroku</li>
+                  <li class="project__stack-item">SpringBoot</li>
+                </ul>
+    
+                <a
+                  href="https://github.com/eveliz15/civic-duty-wellness"
+                  aria-label="source code"
+                  class="link link--icon"
+                >
+                  <i aria-hidden="true" class="fab fa-github"></i>
+                </a>
+                <a
+                  href="https://htmlephant.gitlab.io/"
+                  aria-label="live preview"
+                  class="link link--icon"
+                >
+                  <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+          
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:velize559@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
